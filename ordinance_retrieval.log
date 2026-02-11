@@ -1,0 +1,878 @@
+2025-05-28 11:11:34,009 - WARNING - Original tokenizer was not legal-bert - performance may vary
+2025-05-28 11:11:34,011 - INFO - Use pytorch device_name: cpu
+2025-05-28 11:11:34,011 - INFO - Load pretrained SentenceTransformer: ./best_model
+2025-05-28 11:11:34,562 - WARNING - Failed to load original tokenizer, falling back to default
+2025-05-28 11:11:39,717 - INFO - Loading data from ./best_model\data.csv...
+2025-05-28 11:11:39,787 - INFO - Successfully loaded 640 ordinances
+2025-05-28 11:11:39,918 - INFO - Recreated BM25 index from loaded data
+2025-05-28 11:11:39,918 - INFO - Generating embeddings...
+2025-05-28 11:12:40,384 - INFO - Generated embeddings for 640 ordinances
+2025-05-28 11:12:40,384 - INFO - Regenerated embeddings from loaded data
+2025-05-28 11:12:41,946 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-28 11:12:57,927 - INFO - Use pytorch device: cpu
+2025-05-28 11:13:02,864 - INFO - Original query: covid
+2025-05-28 11:13:02,864 - INFO - Expanded query: covid
+2025-05-28 11:13:02,864 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 11:13:15,726 - INFO - Original query: smoking
+2025-05-28 11:13:15,727 - INFO - Expanded query: tobacco e-cigarette vape cigarette nicotine smoking
+2025-05-28 11:13:15,727 - INFO - All search tokens: ['smoking', 'smoking', 'tobacco', 'e', '-', 'cigarette', 'va', '##pe', 'cigarette', 'nico', '##tine', 'smoking']
+2025-05-28 11:28:16,891 - WARNING - Original tokenizer was not legal-bert - performance may vary
+2025-05-28 11:28:16,892 - INFO - Use pytorch device_name: cpu
+2025-05-28 11:28:16,892 - INFO - Load pretrained SentenceTransformer: ./best_model
+2025-05-28 11:28:17,468 - WARNING - Failed to load original tokenizer, falling back to default
+2025-05-28 11:28:18,535 - INFO - Loading data from ./best_model\data.csv...
+2025-05-28 11:28:18,603 - INFO - Successfully loaded 640 ordinances
+2025-05-28 11:28:18,732 - INFO - Recreated BM25 index from loaded data
+2025-05-28 11:28:18,732 - INFO - Generating embeddings...
+2025-05-28 11:36:18,911 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 11:36:18,912 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 11:36:30,110 - WARNING - Query expansion failed, using original query: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:36:30,110 - ERROR - Error in retrieve_ordinances: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:36:31,353 - INFO - 127.0.0.1 - - [28/May/2025 11:36:31] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 11:41:10,176 - INFO - 127.0.0.1 - - [28/May/2025 11:41:10] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 11:41:10,427 - WARNING - Query expansion failed, using original query: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:41:10,427 - ERROR - Error in retrieve_ordinances: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:41:10,608 - INFO - 127.0.0.1 - - [28/May/2025 11:41:10] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 11:41:22,636 - INFO - 127.0.0.1 - - [28/May/2025 11:41:22] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 11:41:22,946 - WARNING - Query expansion failed, using original query: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:41:22,947 - ERROR - Error in retrieve_ordinances: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:41:23,175 - INFO - 127.0.0.1 - - [28/May/2025 11:41:23] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 11:45:30,715 - INFO - 127.0.0.1 - - [28/May/2025 11:45:30] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 11:45:30,979 - WARNING - Query expansion failed, using original query: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:45:30,979 - ERROR - Error in retrieve_ordinances: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:45:31,225 - INFO - 127.0.0.1 - - [28/May/2025 11:45:31] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 11:46:07,132 - INFO - 127.0.0.1 - - [28/May/2025 11:46:07] "OPTIONS /prompts/1d03689f-72c5-4139-a689-d25d95a87cee HTTP/1.1" 200 -
+2025-05-28 11:46:07,622 - WARNING - Query expansion failed, using original query: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:46:07,623 - ERROR - Error in retrieve_ordinances: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:46:07,792 - INFO - 127.0.0.1 - - [28/May/2025 11:46:07] "PUT /prompts/1d03689f-72c5-4139-a689-d25d95a87cee HTTP/1.1" 200 -
+2025-05-28 11:46:14,578 - INFO - 127.0.0.1 - - [28/May/2025 11:46:14] "OPTIONS /prompts/1d03689f-72c5-4139-a689-d25d95a87cee HTTP/1.1" 200 -
+2025-05-28 11:46:15,055 - WARNING - Query expansion failed, using original query: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:46:15,056 - ERROR - Error in retrieve_ordinances: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:46:15,269 - INFO - 127.0.0.1 - - [28/May/2025 11:46:15] "PUT /prompts/1d03689f-72c5-4139-a689-d25d95a87cee HTTP/1.1" 200 -
+2025-05-28 11:47:20,384 - WARNING - Query expansion failed, using original query: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:47:20,384 - ERROR - Error in retrieve_ordinances: 'NoneType' object has no attribute 'encode'
+2025-05-28 11:47:20,601 - INFO - 127.0.0.1 - - [28/May/2025 11:47:20] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 11:51:33,565 - WARNING - Original tokenizer was not legal-bert - performance may vary
+2025-05-28 11:51:33,567 - INFO - Use pytorch device_name: cpu
+2025-05-28 11:51:33,567 - INFO - Load pretrained SentenceTransformer: ./best_model
+2025-05-28 11:51:34,296 - WARNING - Failed to load original tokenizer, falling back to default
+2025-05-28 11:51:35,796 - INFO - Loading data from ./best_model\data.csv...
+2025-05-28 11:51:35,865 - INFO - Successfully loaded 640 ordinances
+2025-05-28 11:51:36,003 - INFO - Recreated BM25 index from loaded data
+2025-05-28 11:51:36,003 - INFO - Generating embeddings...
+2025-05-28 11:52:35,436 - INFO - Generated embeddings for 640 ordinances
+2025-05-28 11:52:35,436 - INFO - Regenerated embeddings from loaded data
+2025-05-28 11:52:37,949 - INFO - Use pytorch device: cpu
+2025-05-28 11:52:38,979 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 11:52:38,979 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 11:53:11,768 - INFO - Original query: covid
+2025-05-28 11:53:11,768 - INFO - Expanded query: covid
+2025-05-28 11:53:11,768 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 11:53:17,064 - INFO - 127.0.0.1 - - [28/May/2025 11:53:17] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 11:53:38,385 - INFO - 127.0.0.1 - - [28/May/2025 11:53:38] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 11:53:38,765 - INFO - Original query: What are the specific ordinances in place to ensure public safety in our barangay, such as curfews or regulations on public gatherings?
+2025-05-28 11:53:38,765 - INFO - Expanded query: gatherings? regulations ensure government in as office neighborhood curfews captain on barangay are local place or community to our hall public such safety ordinances what specific the barangay,
+2025-05-28 11:53:38,765 - INFO - All search tokens: ['what', 'are', 'the', 'specific', 'ordinance', '##s', 'in', 'place', 'to', 'ensure', 'public', 'safety', 'in', 'our', 'barangay', ',', 'such', 'as', 'cu', '##rf', '##ew', '##s', 'or', 'regulations', 'on', 'public', 'gatherings', '?', 'what', 'are', 'the', 'specific', 'ordinance', '##s', 'in', 'place', 'to', 'ensure', 'public', 'safety', 'in', 'our', 'barangay', ',', 'such', 'as', 'cu', '##rf', '##ew', '##s', 'or', 'regulations', 'on', 'public', 'gatherings', '?', 'gatherings', '?', 'regulations', 'ensure', 'government', 'in', 'as', 'office', 'neighborhood', 'cu', '##rf', '##ew', '##s', 'captain', 'on', 'barangay', 'are', 'local', 'place', 'or', 'community', 'to', 'our', 'hall', 'public', 'such', 'safety', 'ordinance', '##s', 'what', 'specific', 'the', 'barangay', ',']
+2025-05-28 11:53:44,488 - INFO - 127.0.0.1 - - [28/May/2025 11:53:44] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 11:53:47,356 - INFO - 127.0.0.1 - - [28/May/2025 11:53:47] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 11:53:47,714 - INFO - Original query: covid
+2025-05-28 11:53:47,715 - INFO - Expanded query: covid
+2025-05-28 11:53:47,715 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 11:53:52,190 - INFO - 127.0.0.1 - - [28/May/2025 11:53:52] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 11:54:02,722 - INFO - 127.0.0.1 - - [28/May/2025 11:54:02] "OPTIONS /prompts/40c31051-87f7-4dbb-8be6-150acc0913c1 HTTP/1.1" 200 -
+2025-05-28 11:54:03,290 - INFO - Original query: smoke
+2025-05-28 11:54:03,290 - INFO - Expanded query: smoke
+2025-05-28 11:54:03,290 - INFO - All search tokens: ['smoke', 'smoke', 'smoke']
+2025-05-28 11:54:08,291 - INFO - 127.0.0.1 - - [28/May/2025 11:54:08] "PUT /prompts/40c31051-87f7-4dbb-8be6-150acc0913c1 HTTP/1.1" 200 -
+2025-05-28 11:55:05,971 - INFO - Original query: smoke
+2025-05-28 11:55:05,971 - INFO - Expanded query: smoke
+2025-05-28 11:55:05,971 - INFO - All search tokens: ['smoke', 'smoke', 'smoke']
+2025-05-28 11:55:11,448 - INFO - 127.0.0.1 - - [28/May/2025 11:55:11] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 11:55:33,404 - INFO - Original query: smoking
+2025-05-28 11:55:33,404 - INFO - Expanded query: e-cigarette nicotine tobacco smoking cigarette vape
+2025-05-28 11:55:33,404 - INFO - All search tokens: ['smoking', 'smoking', 'e', '-', 'cigarette', 'nico', '##tine', 'tobacco', 'smoking', 'cigarette', 'va', '##pe']
+2025-05-28 11:55:39,711 - INFO - 127.0.0.1 - - [28/May/2025 11:55:39] "PUT /prompts/13ffad3b-c0ac-41c6-b88e-ad2d574639aa HTTP/1.1" 200 -
+2025-05-28 12:01:42,313 - INFO - 127.0.0.1 - - [28/May/2025 12:01:42] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 12:01:42,591 - INFO - Original query: covid
+2025-05-28 12:01:42,591 - INFO - Expanded query: covid
+2025-05-28 12:01:42,592 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 12:01:46,721 - INFO - 127.0.0.1 - - [28/May/2025 12:01:46] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:35:13,739 - INFO - 127.0.0.1 - - [28/May/2025 13:35:13] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-05-28 13:35:14,591 - INFO - 127.0.0.1 - - [28/May/2025 13:35:14] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-05-28 13:35:24,093 - INFO - 127.0.0.1 - - [28/May/2025 13:35:24] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-05-28 13:35:24,644 - INFO - 127.0.0.1 - - [28/May/2025 13:35:24] "POST /auth/login HTTP/1.1" 200 -
+2025-05-28 13:35:32,251 - INFO - 127.0.0.1 - - [28/May/2025 13:35:32] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:35:32,656 - INFO - Original query: e trike
+2025-05-28 13:35:32,656 - INFO - Expanded query: e trike
+2025-05-28 13:35:32,656 - INFO - All search tokens: ['e', 'tri', '##ke', 'e', 'tri', '##ke', 'e', 'tri', '##ke']
+2025-05-28 13:35:39,557 - INFO - 127.0.0.1 - - [28/May/2025 13:35:39] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:44:40,252 - INFO - 127.0.0.1 - - [28/May/2025 13:44:40] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:44:40,675 - INFO - Original query: What are the specific ordinances in place to ensure public safety in our barangay, such as curfews or regulations on public gatherings?
+2025-05-28 13:44:40,675 - INFO - Expanded query: gatherings? regulations ensure government in as office neighborhood curfews captain on barangay are local place or community to our hall public such safety ordinances what specific the barangay,
+2025-05-28 13:44:40,675 - INFO - All search tokens: ['what', 'are', 'the', 'specific', 'ordinance', '##s', 'in', 'place', 'to', 'ensure', 'public', 'safety', 'in', 'our', 'barangay', ',', 'such', 'as', 'cu', '##rf', '##ew', '##s', 'or', 'regulations', 'on', 'public', 'gatherings', '?', 'what', 'are', 'the', 'specific', 'ordinance', '##s', 'in', 'place', 'to', 'ensure', 'public', 'safety', 'in', 'our', 'barangay', ',', 'such', 'as', 'cu', '##rf', '##ew', '##s', 'or', 'regulations', 'on', 'public', 'gatherings', '?', 'gatherings', '?', 'regulations', 'ensure', 'government', 'in', 'as', 'office', 'neighborhood', 'cu', '##rf', '##ew', '##s', 'captain', 'on', 'barangay', 'are', 'local', 'place', 'or', 'community', 'to', 'our', 'hall', 'public', 'such', 'safety', 'ordinance', '##s', 'what', 'specific', 'the', 'barangay', ',']
+2025-05-28 13:44:47,227 - INFO - 127.0.0.1 - - [28/May/2025 13:44:47] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:45:17,208 - INFO - 127.0.0.1 - - [28/May/2025 13:45:17] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:45:17,591 - INFO - Original query: covid
+2025-05-28 13:45:17,623 - INFO - Expanded query: covid
+2025-05-28 13:45:17,623 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 13:45:22,534 - INFO - 127.0.0.1 - - [28/May/2025 13:45:22] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:46:24,174 - INFO - 127.0.0.1 - - [28/May/2025 13:46:24] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:46:24,488 - INFO - Original query: covid
+2025-05-28 13:46:24,488 - INFO - Expanded query: covid
+2025-05-28 13:46:24,488 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 13:46:30,188 - INFO - 127.0.0.1 - - [28/May/2025 13:46:30] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:47:13,705 - INFO - 127.0.0.1 - - [28/May/2025 13:47:13] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:47:14,096 - INFO - Original query: covid
+2025-05-28 13:47:14,096 - INFO - Expanded query: covid
+2025-05-28 13:47:14,096 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 13:47:19,531 - INFO - 127.0.0.1 - - [28/May/2025 13:47:19] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:48:03,194 - INFO - 127.0.0.1 - - [28/May/2025 13:48:03] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:48:03,564 - INFO - Original query: covid
+2025-05-28 13:48:03,565 - INFO - Expanded query: covid
+2025-05-28 13:48:03,565 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 13:48:08,968 - INFO - 127.0.0.1 - - [28/May/2025 13:48:08] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:48:49,745 - INFO - 127.0.0.1 - - [28/May/2025 13:48:49] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:48:50,141 - INFO - Original query: covid
+2025-05-28 13:48:50,141 - INFO - Expanded query: covid
+2025-05-28 13:48:50,141 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 13:48:56,375 - INFO - 127.0.0.1 - - [28/May/2025 13:48:56] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:49:11,735 - INFO - 127.0.0.1 - - [28/May/2025 13:49:11] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:49:12,104 - INFO - Original query: covid
+2025-05-28 13:49:12,104 - INFO - Expanded query: covid
+2025-05-28 13:49:12,104 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 13:49:16,273 - INFO - 127.0.0.1 - - [28/May/2025 13:49:16] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:50:09,068 - INFO - 127.0.0.1 - - [28/May/2025 13:50:09] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:50:09,458 - INFO - Original query: covid
+2025-05-28 13:50:09,458 - INFO - Expanded query: covid
+2025-05-28 13:50:09,458 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 13:50:14,376 - INFO - 127.0.0.1 - - [28/May/2025 13:50:14] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:52:54,536 - INFO - 127.0.0.1 - - [28/May/2025 13:52:54] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:52:54,870 - INFO - Original query: covid
+2025-05-28 13:52:54,870 - INFO - Expanded query: covid
+2025-05-28 13:52:54,870 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 13:52:59,074 - INFO - 127.0.0.1 - - [28/May/2025 13:52:59] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:54:30,644 - INFO - 127.0.0.1 - - [28/May/2025 13:54:30] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:54:30,982 - INFO - Original query: covid
+2025-05-28 13:54:30,982 - INFO - Expanded query: covid
+2025-05-28 13:54:30,982 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 13:54:35,228 - INFO - 127.0.0.1 - - [28/May/2025 13:54:35] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:56:04,198 - INFO - 127.0.0.1 - - [28/May/2025 13:56:04] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:56:04,529 - INFO - Original query: covid
+2025-05-28 13:56:04,529 - INFO - Expanded query: covid
+2025-05-28 13:56:04,529 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 13:56:08,635 - INFO - 127.0.0.1 - - [28/May/2025 13:56:08] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 13:59:42,646 - INFO - 127.0.0.1 - - [28/May/2025 13:59:42] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 13:59:42,967 - INFO - Original query: covid
+2025-05-28 13:59:42,967 - INFO - Expanded query: covid
+2025-05-28 13:59:42,967 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 13:59:47,327 - INFO - 127.0.0.1 - - [28/May/2025 13:59:47] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 14:00:37,095 - INFO - 127.0.0.1 - - [28/May/2025 14:00:37] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 14:00:37,471 - INFO - Original query: covid
+2025-05-28 14:00:37,471 - INFO - Expanded query: covid
+2025-05-28 14:00:37,471 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 14:00:41,593 - INFO - 127.0.0.1 - - [28/May/2025 14:00:41] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 14:01:07,509 - INFO - 127.0.0.1 - - [28/May/2025 14:01:07] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 14:01:07,882 - INFO - Original query: covid
+2025-05-28 14:01:07,882 - INFO - Expanded query: covid
+2025-05-28 14:01:07,882 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 14:01:12,115 - INFO - 127.0.0.1 - - [28/May/2025 14:01:12] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 14:03:16,757 - INFO - 127.0.0.1 - - [28/May/2025 14:03:16] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 14:03:17,080 - INFO - Original query: covid
+2025-05-28 14:03:17,081 - INFO - Expanded query: covid
+2025-05-28 14:03:17,081 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 14:03:22,195 - INFO - 127.0.0.1 - - [28/May/2025 14:03:22] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 14:04:04,998 - INFO - Original query: smoke
+2025-05-28 14:04:04,998 - INFO - Expanded query: smoke
+2025-05-28 14:04:04,998 - INFO - All search tokens: ['smoke', 'smoke', 'smoke']
+2025-05-28 14:04:09,995 - INFO - 127.0.0.1 - - [28/May/2025 14:04:09] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 14:05:10,397 - INFO - 127.0.0.1 - - [28/May/2025 14:05:10] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 14:05:10,725 - INFO - Original query: covid
+2025-05-28 14:05:10,725 - INFO - Expanded query: covid
+2025-05-28 14:05:10,725 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 14:05:15,014 - INFO - 127.0.0.1 - - [28/May/2025 14:05:15] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 14:06:04,127 - WARNING - Original tokenizer was not legal-bert - performance may vary
+2025-05-28 14:06:04,130 - INFO - Use pytorch device_name: cpu
+2025-05-28 14:06:04,130 - INFO - Load pretrained SentenceTransformer: ./best_model
+2025-05-28 14:06:05,259 - WARNING - Failed to load original tokenizer, falling back to default
+2025-05-28 14:06:06,429 - INFO - Loading data from ./best_model\data.csv...
+2025-05-28 14:06:06,554 - INFO - Successfully loaded 640 ordinances
+2025-05-28 14:06:06,794 - INFO - Recreated BM25 index from loaded data
+2025-05-28 14:06:06,794 - INFO - Generating embeddings...
+2025-05-28 14:07:07,483 - INFO - Generated embeddings for 640 ordinances
+2025-05-28 14:07:07,484 - INFO - Regenerated embeddings from loaded data
+2025-05-28 14:07:11,547 - INFO - Use pytorch device: cpu
+2025-05-28 14:07:12,698 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 14:07:12,698 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 14:07:13,843 - INFO - Original query: smoke
+2025-05-28 14:07:13,843 - INFO - Expanded query: smoke
+2025-05-28 14:07:13,843 - INFO - All search tokens: ['smoke', 'smoke', 'smoke']
+2025-05-28 14:07:19,693 - INFO - 127.0.0.1 - - [28/May/2025 14:07:19] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 14:07:31,516 - INFO - 127.0.0.1 - - [28/May/2025 14:07:31] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 14:07:31,880 - INFO - Original query: littering
+2025-05-28 14:07:31,880 - INFO - Expanded query: dumping trash disposal waste illegal garbage littering rubbish
+2025-05-28 14:07:31,880 - INFO - All search tokens: ['litter', '##ing', 'litter', '##ing', 'dumping', 'trash', 'disposal', 'waste', 'illegal', 'garbage', 'litter', '##ing', 'rubbish']
+2025-05-28 14:07:39,362 - INFO - 127.0.0.1 - - [28/May/2025 14:07:39] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 14:10:04,973 - INFO - 127.0.0.1 - - [28/May/2025 14:10:04] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-05-28 14:10:06,625 - INFO - 127.0.0.1 - - [28/May/2025 14:10:06] "POST /auth/login HTTP/1.1" 200 -
+2025-05-28 14:10:10,070 - INFO - 127.0.0.1 - - [28/May/2025 14:10:10] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 14:10:10,451 - INFO - Original query: covid
+2025-05-28 14:10:10,451 - INFO - Expanded query: covid
+2025-05-28 14:10:10,451 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 14:10:14,653 - INFO - 127.0.0.1 - - [28/May/2025 14:10:14] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 14:38:56,005 - INFO - 127.0.0.1 - - [28/May/2025 14:38:56] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-05-28 14:38:56,497 - INFO - 127.0.0.1 - - [28/May/2025 14:38:56] "POST /auth/login HTTP/1.1" 200 -
+2025-05-28 14:39:16,119 - INFO - 127.0.0.1 - - [28/May/2025 14:39:16] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 14:39:16,504 - INFO - Original query: covid
+2025-05-28 14:39:16,505 - INFO - Expanded query: covid
+2025-05-28 14:39:16,505 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 14:39:20,541 - INFO - 127.0.0.1 - - [28/May/2025 14:39:20] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 14:44:10,041 - INFO - 127.0.0.1 - - [28/May/2025 14:44:10] "OPTIONS /prompts/a80809a0-7e49-4d37-88f3-4fb02409ab32 HTTP/1.1" 200 -
+2025-05-28 14:44:10,423 - INFO - Original query: health covid
+2025-05-28 14:44:10,423 - INFO - Expanded query: medical sanitation covid clinic cleanliness hygiene health
+2025-05-28 14:44:10,423 - INFO - All search tokens: ['health', 'co', '##vid', 'health', 'co', '##vid', 'medical', 'sanitation', 'co', '##vid', 'clinic', 'clean', '##liness', 'hygiene', 'health']
+2025-05-28 14:44:19,999 - INFO - 127.0.0.1 - - [28/May/2025 14:44:19] "PUT /prompts/a80809a0-7e49-4d37-88f3-4fb02409ab32 HTTP/1.1" 200 -
+2025-05-28 14:46:28,978 - INFO - 127.0.0.1 - - [28/May/2025 14:46:28] "OPTIONS /prompts/a80809a0-7e49-4d37-88f3-4fb02409ab32 HTTP/1.1" 200 -
+2025-05-28 14:46:29,311 - INFO - Original query: health, covid, vaccine
+2025-05-28 14:46:29,311 - INFO - Expanded query: covid, medical health, sanitation clinic vaccine cleanliness hygiene
+2025-05-28 14:46:29,311 - INFO - All search tokens: ['health', ',', 'co', '##vid', ',', 'vaccine', 'health', ',', 'co', '##vid', ',', 'vaccine', 'co', '##vid', ',', 'medical', 'health', ',', 'sanitation', 'clinic', 'vaccine', 'clean', '##liness', 'hygiene']
+2025-05-28 14:46:35,140 - INFO - 127.0.0.1 - - [28/May/2025 14:46:35] "PUT /prompts/a80809a0-7e49-4d37-88f3-4fb02409ab32 HTTP/1.1" 200 -
+2025-05-28 14:46:44,995 - INFO - 127.0.0.1 - - [28/May/2025 14:46:44] "OPTIONS /prompts/a80809a0-7e49-4d37-88f3-4fb02409ab32 HTTP/1.1" 200 -
+2025-05-28 14:46:45,361 - INFO - Original query: health covid vaccine
+2025-05-28 14:46:45,361 - INFO - Expanded query: medical sanitation covid vaccine clinic cleanliness hygiene health
+2025-05-28 14:46:45,361 - INFO - All search tokens: ['health', 'co', '##vid', 'vaccine', 'health', 'co', '##vid', 'vaccine', 'medical', 'sanitation', 'co', '##vid', 'vaccine', 'clinic', 'clean', '##liness', 'hygiene', 'health']
+2025-05-28 14:46:50,786 - INFO - 127.0.0.1 - - [28/May/2025 14:46:50] "PUT /prompts/a80809a0-7e49-4d37-88f3-4fb02409ab32 HTTP/1.1" 200 -
+2025-05-28 14:49:35,498 - INFO - 127.0.0.1 - - [28/May/2025 14:49:35] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 14:49:35,779 - INFO - Original query: what if I kill someone
+2025-05-28 14:49:35,779 - INFO - Expanded query: kill i someone if what
+2025-05-28 14:49:35,779 - INFO - All search tokens: ['what', 'if', 'i', 'kill', 'someone', 'what', 'if', 'i', 'kill', 'someone', 'kill', 'i', 'someone', 'if', 'what']
+2025-05-28 14:49:39,593 - INFO - 127.0.0.1 - - [28/May/2025 14:49:39] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 14:50:22,365 - INFO - 127.0.0.1 - - [28/May/2025 14:50:22] "OPTIONS /prompts/9b83fb49-5677-4267-89aa-904034e5444c HTTP/1.1" 200 -
+2025-05-28 14:50:22,734 - INFO - Original query: karaoke
+2025-05-28 14:50:22,734 - INFO - Expanded query: karaoke
+2025-05-28 14:50:22,734 - INFO - All search tokens: ['kara', '##oke', 'kara', '##oke', 'kara', '##oke']
+2025-05-28 14:50:26,929 - INFO - 127.0.0.1 - - [28/May/2025 14:50:26] "PUT /prompts/9b83fb49-5677-4267-89aa-904034e5444c HTTP/1.1" 200 -
+2025-05-28 14:57:20,998 - INFO - 127.0.0.1 - - [28/May/2025 14:57:20] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 14:57:21,294 - INFO - Original query: covid
+2025-05-28 14:57:21,294 - INFO - Expanded query: covid
+2025-05-28 14:57:21,294 - INFO - All search tokens: ['co', '##vid', 'co', '##vid', 'co', '##vid']
+2025-05-28 14:57:25,033 - INFO - 127.0.0.1 - - [28/May/2025 14:57:25] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 15:02:24,292 - INFO - 127.0.0.1 - - [28/May/2025 15:02:24] "OPTIONS /prompts/77218f19-12f7-41c3-a637-c6f8721dc7df HTTP/1.1" 200 -
+2025-05-28 15:02:24,616 - INFO - Original query: how much spent in covid triage?
+2025-05-28 15:02:24,616 - INFO - Expanded query: much in covid spent triage? how
+2025-05-28 15:02:24,616 - INFO - All search tokens: ['how', 'much', 'spent', 'in', 'co', '##vid', 'tri', '##age', '?', 'how', 'much', 'spent', 'in', 'co', '##vid', 'tri', '##age', '?', 'much', 'in', 'co', '##vid', 'spent', 'tri', '##age', '?', 'how']
+2025-05-28 15:02:30,713 - INFO - 127.0.0.1 - - [28/May/2025 15:02:30] "PUT /prompts/77218f19-12f7-41c3-a637-c6f8721dc7df HTTP/1.1" 200 -
+2025-05-28 15:04:13,880 - INFO - 127.0.0.1 - - [28/May/2025 15:04:13] "OPTIONS /prompts/77218f19-12f7-41c3-a637-c6f8721dc7df HTTP/1.1" 200 -
+2025-05-28 15:04:14,238 - INFO - Original query: what is the noise ordinance in morayta
+2025-05-28 15:04:14,238 - INFO - Expanded query: sounds disturbance the is noise ordinance in karaoke morayta amplifier what speakers loud
+2025-05-28 15:04:14,238 - INFO - All search tokens: ['what', 'is', 'the', 'noise', 'ordinance', 'in', 'mora', '##yt', '##a', 'what', 'is', 'the', 'noise', 'ordinance', 'in', 'mora', '##yt', '##a', 'sounds', 'disturbance', 'the', 'is', 'noise', 'ordinance', 'in', 'kara', '##oke', 'mora', '##yt', '##a', 'amplifier', 'what', 'speakers', 'loud']
+2025-05-28 15:04:18,634 - INFO - 127.0.0.1 - - [28/May/2025 15:04:18] "PUT /prompts/77218f19-12f7-41c3-a637-c6f8721dc7df HTTP/1.1" 200 -
+2025-05-28 15:05:06,835 - INFO - 127.0.0.1 - - [28/May/2025 15:05:06] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 15:05:07,177 - INFO - Original query: noise
+2025-05-28 15:05:07,177 - INFO - Expanded query: sounds disturbance noise karaoke amplifier speakers loud
+2025-05-28 15:05:07,177 - INFO - All search tokens: ['noise', 'noise', 'sounds', 'disturbance', 'noise', 'kara', '##oke', 'amplifier', 'speakers', 'loud']
+2025-05-28 15:05:11,219 - INFO - 127.0.0.1 - - [28/May/2025 15:05:11] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 15:05:24,191 - INFO - 127.0.0.1 - - [28/May/2025 15:05:24] "OPTIONS /prompts/85d257b6-6242-465b-9379-3ef296d014b5 HTTP/1.1" 200 -
+2025-05-28 15:05:24,558 - INFO - Original query: loud noise 
+2025-05-28 15:05:24,558 - INFO - Expanded query: sounds disturbance noise karaoke amplifier speakers loud
+2025-05-28 15:05:24,558 - INFO - All search tokens: ['loud', 'noise', 'loud', 'noise', 'sounds', 'disturbance', 'noise', 'kara', '##oke', 'amplifier', 'speakers', 'loud']
+2025-05-28 15:05:29,260 - INFO - 127.0.0.1 - - [28/May/2025 15:05:29] "PUT /prompts/85d257b6-6242-465b-9379-3ef296d014b5 HTTP/1.1" 200 -
+2025-05-28 15:06:22,512 - INFO - 127.0.0.1 - - [28/May/2025 15:06:22] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 15:06:22,860 - INFO - Original query: how do I apply for business permit
+2025-05-28 15:06:22,860 - INFO - Expanded query: apply enterprise business establishment permit shop i do store commerce for how
+2025-05-28 15:06:22,860 - INFO - All search tokens: ['how', 'do', 'i', 'apply', 'for', 'business', 'permit', 'how', 'do', 'i', 'apply', 'for', 'business', 'permit', 'apply', 'enterprise', 'business', 'establishment', 'permit', 'shop', 'i', 'do', 'store', 'commerce', 'for', 'how']
+2025-05-28 15:06:26,585 - INFO - 127.0.0.1 - - [28/May/2025 15:06:26] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-05-28 15:06:37,105 - INFO - 127.0.0.1 - - [28/May/2025 15:06:37] "OPTIONS /prompts/619e5c66-e2df-43c5-95b0-584905c04eef HTTP/1.1" 200 -
+2025-05-28 15:06:37,534 - INFO - Original query: business permit
+2025-05-28 15:06:37,534 - INFO - Expanded query: enterprise business establishment permit shop store commerce
+2025-05-28 15:06:37,534 - INFO - All search tokens: ['business', 'permit', 'business', 'permit', 'enterprise', 'business', 'establishment', 'permit', 'shop', 'store', 'commerce']
+2025-05-28 15:06:41,046 - INFO - 127.0.0.1 - - [28/May/2025 15:06:41] "PUT /prompts/619e5c66-e2df-43c5-95b0-584905c04eef HTTP/1.1" 200 -
+2025-05-28 15:06:54,368 - INFO - 127.0.0.1 - - [28/May/2025 15:06:54] "OPTIONS /prompts/619e5c66-e2df-43c5-95b0-584905c04eef HTTP/1.1" 200 -
+2025-05-28 15:06:54,738 - INFO - Original query: curfew
+2025-05-28 15:06:54,738 - INFO - Expanded query: restriction youth curfew ban time minor night outside kids
+2025-05-28 15:06:54,738 - INFO - All search tokens: ['cu', '##rf', '##ew', 'cu', '##rf', '##ew', 'restriction', 'youth', 'cu', '##rf', '##ew', 'ban', 'time', 'minor', 'night', 'outside', 'kids']
+2025-05-28 15:07:00,538 - INFO - 127.0.0.1 - - [28/May/2025 15:07:00] "PUT /prompts/619e5c66-e2df-43c5-95b0-584905c04eef HTTP/1.1" 200 -
+2025-05-28 15:07:31,819 - INFO - 127.0.0.1 - - [28/May/2025 15:07:31] "OPTIONS /prompts/619e5c66-e2df-43c5-95b0-584905c04eef HTTP/1.1" 200 -
+2025-05-28 15:07:32,193 - INFO - Original query: permit
+2025-05-28 15:07:32,194 - INFO - Expanded query: permit
+2025-05-28 15:07:32,194 - INFO - All search tokens: ['permit', 'permit', 'permit']
+2025-05-28 15:07:35,711 - INFO - 127.0.0.1 - - [28/May/2025 15:07:35] "PUT /prompts/619e5c66-e2df-43c5-95b0-584905c04eef HTTP/1.1" 200 -
+2025-05-28 15:07:47,650 - INFO - 127.0.0.1 - - [28/May/2025 15:07:47] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-05-28 15:07:47,995 - INFO - Original query: permit
+2025-05-28 15:07:47,995 - INFO - Expanded query: permit
+2025-05-28 15:07:47,995 - INFO - All search tokens: ['permit', 'permit', 'permit']
+2025-05-28 15:07:51,482 - INFO - 127.0.0.1 - - [28/May/2025 15:07:51] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-06-11 20:04:07,732 - WARNING - Original tokenizer was not legal-bert - performance may vary
+2025-06-11 20:04:07,735 - INFO - Use pytorch device_name: cpu
+2025-06-11 20:04:07,735 - INFO - Load pretrained SentenceTransformer: ./best_model
+2025-06-11 20:04:08,699 - WARNING - Failed to load original tokenizer, falling back to default
+2025-06-11 20:04:09,819 - INFO - Loading data from ./best_model\data.csv...
+2025-06-11 20:04:09,894 - INFO - Successfully loaded 640 ordinances
+2025-07-08 06:14:51,267 - INFO - No previous memory found, starting fresh
+2025-07-08 06:14:51,276 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 06:14:51,276 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 06:15:54,443 - INFO - 127.0.0.1 - - [08/Jul/2025 06:15:54] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-08 06:15:54,995 - INFO - 127.0.0.1 - - [08/Jul/2025 06:15:54] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-07-08 06:16:46,876 - INFO - 127.0.0.1 - - [08/Jul/2025 06:16:46] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-07-08 06:17:02,349 - INFO - 127.0.0.1 - - [08/Jul/2025 06:17:02] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-07-08 06:18:37,213 - INFO - 127.0.0.1 - - [08/Jul/2025 06:18:37] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-08 06:18:37,511 - INFO - 127.0.0.1 - - [08/Jul/2025 06:18:37] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-07-08 06:19:45,547 - INFO - 127.0.0.1 - - [08/Jul/2025 06:19:45] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-08 06:19:45,828 - INFO - 127.0.0.1 - - [08/Jul/2025 06:19:45] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-07-08 06:22:14,024 - INFO - 127.0.0.1 - - [08/Jul/2025 06:22:14] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-08 06:22:14,315 - INFO - 127.0.0.1 - - [08/Jul/2025 06:22:14] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-07-08 06:22:49,699 - INFO - 127.0.0.1 - - [08/Jul/2025 06:22:49] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-08 06:22:50,037 - INFO - 127.0.0.1 - - [08/Jul/2025 06:22:50] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-07-08 06:24:49,333 - INFO - 127.0.0.1 - - [08/Jul/2025 06:24:49] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-08 06:24:49,625 - INFO - 127.0.0.1 - - [08/Jul/2025 06:24:49] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-07-08 06:25:41,286 - INFO - 127.0.0.1 - - [08/Jul/2025 06:25:41] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-08 06:25:41,637 - INFO - 127.0.0.1 - - [08/Jul/2025 06:25:41] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-07-08 06:27:56,906 - INFO - No previous memory found, starting fresh
+2025-07-08 06:27:56,912 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 06:27:56,912 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 06:28:06,895 - INFO - 127.0.0.1 - - [08/Jul/2025 06:28:06] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-07-08 06:28:10,588 - INFO - 127.0.0.1 - - [08/Jul/2025 06:28:10] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-07-08 06:28:17,639 - INFO - 127.0.0.1 - - [08/Jul/2025 06:28:17] "GET /users HTTP/1.1" 200 -
+2025-07-08 06:29:48,238 - INFO - 127.0.0.1 - - [08/Jul/2025 06:29:48] "GET /users HTTP/1.1" 200 -
+2025-07-08 06:29:53,207 - INFO - 127.0.0.1 - - [08/Jul/2025 06:29:53] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-07-08 06:30:06,158 - INFO - 127.0.0.1 - - [08/Jul/2025 06:30:06] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-08 06:30:06,447 - INFO - 127.0.0.1 - - [08/Jul/2025 06:30:06] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-07-08 06:30:43,019 - INFO - 127.0.0.1 - - [08/Jul/2025 06:30:43] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-08 06:30:43,372 - INFO - 127.0.0.1 - - [08/Jul/2025 06:30:43] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-07-08 06:33:05,673 - INFO - 127.0.0.1 - - [08/Jul/2025 06:33:05] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-08 06:33:06,316 - INFO - 127.0.0.1 - - [08/Jul/2025 06:33:06] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-07-08 06:37:37,034 - INFO - 127.0.0.1 - - [08/Jul/2025 06:37:37] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-07-08 06:37:37,552 - INFO - 127.0.0.1 - - [08/Jul/2025 06:37:37] "[31m[1mPOST /auth/login HTTP/1.1[0m" 400 -
+2025-07-08 06:37:57,633 - INFO - 127.0.0.1 - - [08/Jul/2025 06:37:57] "GET /users HTTP/1.1" 200 -
+2025-07-08 06:38:10,191 - INFO - 127.0.0.1 - - [08/Jul/2025 06:38:10] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-07-08 06:38:10,791 - INFO - 127.0.0.1 - - [08/Jul/2025 06:38:10] "[31m[1mPOST /auth/login HTTP/1.1[0m" 400 -
+2025-07-08 06:39:02,664 - INFO - 127.0.0.1 - - [08/Jul/2025 06:39:02] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-08 06:39:03,300 - INFO - 127.0.0.1 - - [08/Jul/2025 06:39:03] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-07-08 06:39:18,559 - INFO - 127.0.0.1 - - [08/Jul/2025 06:39:18] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-07-08 06:39:19,143 - INFO - 127.0.0.1 - - [08/Jul/2025 06:39:19] "POST /auth/login HTTP/1.1" 200 -
+2025-07-08 06:42:56,685 - INFO - 127.0.0.1 - - [08/Jul/2025 06:42:56] "[33mGET /categories HTTP/1.1[0m" 404 -
+2025-07-08 06:43:13,649 - INFO - No previous memory found, starting fresh
+2025-07-08 06:43:13,658 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 06:43:13,658 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 06:43:23,182 - INFO - 127.0.0.1 - - [08/Jul/2025 06:43:23] "GET /categories HTTP/1.1" 200 -
+2025-07-08 06:43:52,545 - INFO - 127.0.0.1 - - [08/Jul/2025 06:43:52] "[33mPOST /categories/ HTTP/1.1[0m" 404 -
+2025-07-08 06:44:09,140 - INFO - 127.0.0.1 - - [08/Jul/2025 06:44:09] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:44:27,681 - INFO - 127.0.0.1 - - [08/Jul/2025 06:44:27] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:44:35,793 - INFO - 127.0.0.1 - - [08/Jul/2025 06:44:35] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:44:44,587 - INFO - 127.0.0.1 - - [08/Jul/2025 06:44:44] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:44:52,873 - INFO - 127.0.0.1 - - [08/Jul/2025 06:44:52] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:45:03,722 - INFO - 127.0.0.1 - - [08/Jul/2025 06:45:03] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:45:14,067 - INFO - 127.0.0.1 - - [08/Jul/2025 06:45:14] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:45:23,654 - INFO - 127.0.0.1 - - [08/Jul/2025 06:45:23] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:45:38,047 - INFO - 127.0.0.1 - - [08/Jul/2025 06:45:38] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:45:48,839 - INFO - 127.0.0.1 - - [08/Jul/2025 06:45:48] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:45:58,083 - INFO - 127.0.0.1 - - [08/Jul/2025 06:45:58] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:46:07,918 - INFO - 127.0.0.1 - - [08/Jul/2025 06:46:07] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+2025-07-08 06:46:30,214 - INFO - 127.0.0.1 - - [08/Jul/2025 06:46:30] "GET /categories HTTP/1.1" 200 -
+2025-07-08 06:49:01,599 - INFO - 127.0.0.1 - - [08/Jul/2025 06:49:01] "[31m[1mGET /prompts HTTP/1.1[0m" 405 -
+2025-07-08 06:49:05,848 - INFO - 127.0.0.1 - - [08/Jul/2025 06:49:05] "[31m[1mGET /prompts HTTP/1.1[0m" 405 -
+2025-07-08 06:49:52,637 - INFO - 127.0.0.1 - - [08/Jul/2025 06:49:52] "[31m[1mGET /prompts HTTP/1.1[0m" 405 -
+2025-07-08 06:50:09,023 - INFO - No previous memory found, starting fresh
+2025-07-08 06:52:20,277 - INFO - No previous memory found, starting fresh
+2025-07-08 06:52:20,285 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 06:52:20,285 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 06:52:23,816 - INFO - 127.0.0.1 - - [08/Jul/2025 06:52:23] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 06:54:33,537 - INFO - 127.0.0.1 - - [08/Jul/2025 06:54:33] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 06:54:33,539 - INFO - 127.0.0.1 - - [08/Jul/2025 06:54:33] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 06:54:33,912 - INFO - 127.0.0.1 - - [08/Jul/2025 06:54:33] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 06:54:33,958 - INFO - 127.0.0.1 - - [08/Jul/2025 06:54:33] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 07:01:37,150 - INFO - 127.0.0.1 - - [08/Jul/2025 07:01:37] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 07:01:37,512 - INFO - 127.0.0.1 - - [08/Jul/2025 07:01:37] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 07:02:00,448 - INFO - 127.0.0.1 - - [08/Jul/2025 07:02:00] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 07:02:00,877 - INFO - 127.0.0.1 - - [08/Jul/2025 07:02:00] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 07:02:10,165 - INFO - 127.0.0.1 - - [08/Jul/2025 07:02:10] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 07:02:10,634 - INFO - 127.0.0.1 - - [08/Jul/2025 07:02:10] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 07:04:17,514 - INFO - General query detected for topic: smoking
+2025-07-08 07:04:17,547 - INFO - 127.0.0.1 - - [08/Jul/2025 07:04:17] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-07-08 07:05:10,005 - INFO - General query detected for topic: smoking
+2025-07-08 07:05:10,035 - INFO - 127.0.0.1 - - [08/Jul/2025 07:05:10] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-07-08 07:05:17,251 - WARNING - Query processing failed: 'NoneType' object has no attribute 'encode'
+2025-07-08 07:05:17,251 - ERROR - Error in retrieve_ordinances: 'NoneType' object has no attribute 'encode'
+2025-07-08 07:05:17,283 - INFO - 127.0.0.1 - - [08/Jul/2025 07:05:17] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-07-08 07:05:28,144 - WARNING - Query processing failed: 'NoneType' object has no attribute 'encode'
+2025-07-08 07:05:28,144 - ERROR - Error in retrieve_ordinances: 'NoneType' object has no attribute 'encode'
+2025-07-08 07:05:28,174 - INFO - 127.0.0.1 - - [08/Jul/2025 07:05:28] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-07-08 07:09:27,653 - INFO - No previous memory found, starting fresh
+2025-07-08 07:09:27,653 - INFO - Loading zephyr model from zephyr-7b-beta.Q5_K_M.gguf...
+2025-07-08 07:09:28,149 - INFO - Model loaded successfully
+2025-07-08 07:09:28,149 - INFO - RAG mode enabled with zephyr LLM
+2025-07-08 07:09:28,150 - INFO - Loading data from ordinance_data.csv...
+2025-07-08 07:09:28,191 - INFO - Successfully read CSV with utf-8 encoding
+2025-07-08 07:09:28,278 - INFO - Successfully loaded 640 ordinances
+2025-07-08 07:09:28,278 - INFO - Initializing models...
+2025-07-08 07:09:31,654 - INFO - Tokenizer initialized successfully
+2025-07-08 07:09:31,657 - INFO - Use pytorch device_name: cpu
+2025-07-08 07:09:31,657 - INFO - Load pretrained SentenceTransformer: nlpaueb/legal-bert-base-uncased
+2025-07-08 07:09:31,948 - WARNING - No sentence-transformers model found with name nlpaueb/legal-bert-base-uncased. Creating a new one with mean pooling.
+2025-07-08 07:10:12,676 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-08 07:10:38,212 - INFO - Use pytorch device: cpu
+2025-07-08 07:10:39,737 - INFO - BM25 initialized successfully
+2025-07-08 07:10:39,737 - INFO - Models initialized successfully
+2025-07-08 07:10:39,739 - INFO - Generating embeddings...
+2025-07-08 07:12:06,107 - INFO - No previous memory found, starting fresh
+2025-07-08 07:12:06,107 - INFO - Loading zephyr model from zephyr-7b-beta.Q5_K_M.gguf...
+2025-07-08 07:12:07,724 - INFO - Model loaded successfully
+2025-07-08 07:12:07,724 - INFO - RAG mode enabled with zephyr LLM
+2025-07-08 07:12:07,725 - INFO - Loading data from ordinance_data.csv...
+2025-07-08 07:12:07,835 - INFO - Successfully read CSV with utf-8 encoding
+2025-07-08 07:12:07,939 - INFO - Successfully loaded 640 ordinances
+2025-07-08 07:12:07,939 - INFO - Initializing models...
+2025-07-08 07:12:08,858 - INFO - Tokenizer initialized successfully
+2025-07-08 07:12:08,861 - INFO - Use pytorch device_name: cpu
+2025-07-08 07:12:08,861 - INFO - Load pretrained SentenceTransformer: nlpaueb/legal-bert-base-uncased
+2025-07-08 07:12:09,214 - WARNING - No sentence-transformers model found with name nlpaueb/legal-bert-base-uncased. Creating a new one with mean pooling.
+2025-07-08 07:12:15,495 - INFO - Use pytorch device: cpu
+2025-07-08 07:12:16,278 - INFO - BM25 initialized successfully
+2025-07-08 07:12:16,278 - INFO - Models initialized successfully
+2025-07-08 07:12:16,278 - INFO - Generating embeddings...
+2025-07-08 07:14:29,006 - INFO - Generated embeddings for 640 ordinances
+2025-07-08 07:14:29,028 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 07:14:29,028 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 07:14:51,382 - INFO - Query type: moderate
+2025-07-08 07:14:51,382 - INFO - Original query: no smoking ordinance
+2025-07-08 07:14:51,382 - INFO - Expanded query: regulation tobacco no nicotine law decree ordinance order vape mandate cigarette e-cigarette smoking
+2025-07-08 07:16:12,712 - INFO - 127.0.0.1 - - [08/Jul/2025 07:16:12] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-07-08 07:22:45,081 - INFO - 127.0.0.1 - - [08/Jul/2025 07:22:45] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 07:22:45,326 - INFO - General query detected for topic: smoking
+2025-07-08 07:22:45,363 - INFO - 127.0.0.1 - - [08/Jul/2025 07:22:45] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-07-08 07:23:22,599 - INFO - 127.0.0.1 - - [08/Jul/2025 07:23:22] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 07:23:23,800 - INFO - Query type: moderate
+2025-07-08 07:23:23,800 - INFO - Original query: no smoking ordinance
+2025-07-08 07:23:23,800 - INFO - Expanded query: regulation tobacco no nicotine law decree ordinance order vape mandate cigarette e-cigarette smoking
+2025-07-08 07:24:07,447 - INFO - 127.0.0.1 - - [08/Jul/2025 07:24:07] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-07-08 07:37:36,225 - INFO - 127.0.0.1 - - [08/Jul/2025 07:37:36] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 07:37:37,295 - INFO - Query type: general
+2025-07-08 07:37:37,295 - INFO - Original query: covid ordinance
+2025-07-08 07:37:37,295 - INFO - Expanded query: regulation law pandemic covid-19 decree ordinance order coronavirus lockdown mandate quarantine covid
+2025-07-08 07:38:30,229 - INFO - 127.0.0.1 - - [08/Jul/2025 07:38:30] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-07-08 08:03:21,453 - INFO - 127.0.0.1 - - [08/Jul/2025 08:03:21] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:03:22,338 - INFO - Query type: moderate
+2025-07-08 08:03:22,338 - INFO - Original query: no smoking ordinance
+2025-07-08 08:03:22,339 - INFO - Expanded query: regulation tobacco no nicotine law decree ordinance order vape mandate cigarette e-cigarette smoking
+2025-07-08 08:04:34,899 - INFO - 127.0.0.1 - - [08/Jul/2025 08:04:34] "[35m[1mPOST /prompts HTTP/1.1[0m" 201 -
+2025-07-08 08:05:15,904 - INFO - 127.0.0.1 - - [08/Jul/2025 08:05:15] "OPTIONS /prompts/05220f6f-80f3-4c4d-8638-19f077efdad3 HTTP/1.1" 200 -
+2025-07-08 08:05:16,172 - INFO - General query detected for topic: covid
+2025-07-08 08:05:16,209 - INFO - 127.0.0.1 - - [08/Jul/2025 08:05:16] "PUT /prompts/05220f6f-80f3-4c4d-8638-19f077efdad3 HTTP/1.1" 200 -
+2025-07-08 08:05:38,997 - INFO - 127.0.0.1 - - [08/Jul/2025 08:05:38] "OPTIONS /prompts/05220f6f-80f3-4c4d-8638-19f077efdad3 HTTP/1.1" 200 -
+2025-07-08 08:05:40,206 - INFO - Query type: moderate
+2025-07-08 08:05:40,207 - INFO - Original query: covid-19 health protocols
+2025-07-08 08:05:40,207 - INFO - Expanded query: medical pandemic covid-19 clinic protocols coronavirus lockdown health quarantine covid sanitation hygiene cleanliness
+2025-07-08 08:07:25,671 - INFO - 127.0.0.1 - - [08/Jul/2025 08:07:25] "PUT /prompts/05220f6f-80f3-4c4d-8638-19f077efdad3 HTTP/1.1" 200 -
+2025-07-08 08:09:04,182 - INFO - 127.0.0.1 - - [08/Jul/2025 08:09:04] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:09:04,185 - INFO - 127.0.0.1 - - [08/Jul/2025 08:09:04] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:09:04,522 - INFO - 127.0.0.1 - - [08/Jul/2025 08:09:04] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:09:04,572 - INFO - 127.0.0.1 - - [08/Jul/2025 08:09:04] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:09:47,832 - INFO - 127.0.0.1 - - [08/Jul/2025 08:09:47] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:09:48,209 - INFO - 127.0.0.1 - - [08/Jul/2025 08:09:48] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:09:58,379 - INFO - 127.0.0.1 - - [08/Jul/2025 08:09:58] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:09:58,801 - INFO - 127.0.0.1 - - [08/Jul/2025 08:09:58] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:04,140 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:04] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:04,591 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:04] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:11,217 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:11] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:11,641 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:11] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:15,349 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:15] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:15,777 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:15] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:20,876 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:20] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:21,306 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:21] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:27,616 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:27] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:28,031 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:28] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:34,397 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:34] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:34,819 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:34] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:38,693 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:38] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:39,118 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:39] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:46,315 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:46] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:46,750 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:46] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:57,765 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:57] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:10:58,194 - INFO - 127.0.0.1 - - [08/Jul/2025 08:10:58] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:06,963 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:06] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:07,392 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:07] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:09,963 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:09] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:10,388 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:10] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:16,354 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:16] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:16,782 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:16] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:35,734 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:35] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:36,105 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:36] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:39,839 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:39] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:40,214 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:40] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:46,867 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:46] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:47,301 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:47] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:50,570 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:50] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:50,925 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:50] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:59,127 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:59] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:11:59,561 - INFO - 127.0.0.1 - - [08/Jul/2025 08:11:59] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:12:06,562 - INFO - 127.0.0.1 - - [08/Jul/2025 08:12:06] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:12:07,065 - INFO - 127.0.0.1 - - [08/Jul/2025 08:12:07] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:12:13,373 - INFO - 127.0.0.1 - - [08/Jul/2025 08:12:13] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:12:13,792 - INFO - 127.0.0.1 - - [08/Jul/2025 08:12:13] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:12:44,090 - INFO - 127.0.0.1 - - [08/Jul/2025 08:12:44] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:12:44,509 - INFO - 127.0.0.1 - - [08/Jul/2025 08:12:44] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:12:56,205 - INFO - 127.0.0.1 - - [08/Jul/2025 08:12:56] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:12:56,615 - INFO - 127.0.0.1 - - [08/Jul/2025 08:12:56] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:13:01,074 - INFO - 127.0.0.1 - - [08/Jul/2025 08:13:01] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:13:01,491 - INFO - 127.0.0.1 - - [08/Jul/2025 08:13:01] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:13:06,548 - INFO - 127.0.0.1 - - [08/Jul/2025 08:13:06] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:13:06,973 - INFO - 127.0.0.1 - - [08/Jul/2025 08:13:06] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:13:11,103 - INFO - 127.0.0.1 - - [08/Jul/2025 08:13:11] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:13:11,528 - INFO - 127.0.0.1 - - [08/Jul/2025 08:13:11] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:13:21,883 - INFO - 127.0.0.1 - - [08/Jul/2025 08:13:21] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:13:22,304 - INFO - 127.0.0.1 - - [08/Jul/2025 08:13:22] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:13:26,130 - INFO - 127.0.0.1 - - [08/Jul/2025 08:13:26] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:13:26,546 - INFO - 127.0.0.1 - - [08/Jul/2025 08:13:26] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:14:35,577 - INFO - 127.0.0.1 - - [08/Jul/2025 08:14:35] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:14:35,579 - INFO - 127.0.0.1 - - [08/Jul/2025 08:14:35] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:14:36,089 - INFO - 127.0.0.1 - - [08/Jul/2025 08:14:36] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:14:36,134 - INFO - 127.0.0.1 - - [08/Jul/2025 08:14:36] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:14:53,218 - INFO - 127.0.0.1 - - [08/Jul/2025 08:14:53] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:14:53,532 - INFO - 127.0.0.1 - - [08/Jul/2025 08:14:53] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:14:53,561 - INFO - 127.0.0.1 - - [08/Jul/2025 08:14:53] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:14:53,874 - INFO - 127.0.0.1 - - [08/Jul/2025 08:14:53] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:16:59,682 - INFO - 127.0.0.1 - - [08/Jul/2025 08:16:59] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:16:59,683 - INFO - 127.0.0.1 - - [08/Jul/2025 08:16:59] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:16:59,687 - INFO - 127.0.0.1 - - [08/Jul/2025 08:16:59] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:16:59,691 - INFO - 127.0.0.1 - - [08/Jul/2025 08:16:59] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:16:59,981 - INFO - 127.0.0.1 - - [08/Jul/2025 08:16:59] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:17:00,025 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:00] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:17:00,121 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:00] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:17:00,364 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:00] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:17:06,974 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:06] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:17:07,289 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:07] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:17:07,320 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:07] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:17:07,721 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:07] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:17:12,262 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:12] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:17:12,265 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:12] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:17:12,540 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:12] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:17:12,696 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:12] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:17:18,623 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:18] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:17:18,932 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:18] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:17:18,960 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:18] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:17:19,382 - INFO - 127.0.0.1 - - [08/Jul/2025 08:17:19] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:18:01,333 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:01] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:18:01,336 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:01] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:18:01,610 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:01] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:18:01,787 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:01] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:18:05,274 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:05] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:18:05,587 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:05] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:18:05,616 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:05] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:18:06,024 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:06] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:18:25,083 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:25] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:18:25,086 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:25] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:18:25,386 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:25] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:18:25,517 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:25] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:18:31,186 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:31] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:18:31,498 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:31] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:18:31,527 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:31] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:18:31,933 - INFO - 127.0.0.1 - - [08/Jul/2025 08:18:31] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:20:04,604 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:04] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:20:04,652 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:04] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:20:04,664 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:04] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:20:04,673 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:04] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:20:04,867 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:04] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:20:05,033 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:05] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:20:05,120 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:05] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:20:05,130 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:05] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:20:18,955 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:18] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:20:19,277 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:19] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:20:19,279 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:19] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:20:19,280 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:19] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:20:19,318 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:19] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:20:19,646 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:19] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:20:19,769 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:19] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:20:19,777 - INFO - 127.0.0.1 - - [08/Jul/2025 08:20:19] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:21:21,921 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:21] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:21:21,928 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:21] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:21:21,932 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:21] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:21:21,958 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:21] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:21:22,187 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:22] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:21:22,291 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:22] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:21:22,331 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:22] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:21:22,348 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:22] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:21:22,425 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:22] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:21:22,523 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:22] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:21:22,667 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:22] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:21:22,679 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:22] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:21:39,926 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:39] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:21:39,929 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:39] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:21:39,933 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:39] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:21:39,941 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:39] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:21:40,208 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:40] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:21:40,268 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:40] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:21:40,359 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:40] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:21:40,374 - INFO - 127.0.0.1 - - [08/Jul/2025 08:21:40] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:22:31,414 - INFO - 127.0.0.1 - - [08/Jul/2025 08:22:31] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:22:31,417 - INFO - 127.0.0.1 - - [08/Jul/2025 08:22:31] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:22:31,716 - INFO - 127.0.0.1 - - [08/Jul/2025 08:22:31] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:22:31,856 - INFO - 127.0.0.1 - - [08/Jul/2025 08:22:31] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:05,262 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:05] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:23:05,264 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:05] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:05,265 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:05] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:23:05,267 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:05] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:05,580 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:05] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:23:05,598 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:05] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:23:05,681 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:05] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:05,718 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:05] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:21,468 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:21] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:23:21,469 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:21] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:21,474 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:21] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:23:21,478 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:21] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:21,778 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:21] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:23:21,824 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:21] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:23:21,924 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:21] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:21,946 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:21] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:28,567 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:28] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:23:28,568 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:28] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:28,570 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:28] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:23:28,574 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:28] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:28,867 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:28] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:23:28,911 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:28] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:23:28,990 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:28] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:29,003 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:29] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:40,943 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:40] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:23:40,946 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:40] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:40,948 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:40] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:23:40,951 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:40] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:41,224 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:41] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:23:41,279 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:41] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:23:41,364 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:41] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:41,394 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:41] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:57,150 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:57] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:23:57,152 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:57] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:57,153 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:57] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:23:57,160 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:57] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:57,435 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:57] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:23:57,503 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:57] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:23:57,587 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:57] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:23:57,592 - INFO - 127.0.0.1 - - [08/Jul/2025 08:23:57] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:24:14,771 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:14] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:24:14,773 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:14] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:24:15,062 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:15] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:24:15,187 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:15] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:24:22,772 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:22] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:24:22,775 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:22] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:24:23,060 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:23] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:24:23,180 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:23] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:24:41,265 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:41] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:24:41,267 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:41] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:24:41,558 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:41] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:24:41,686 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:41] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:24:50,238 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:50] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:24:50,240 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:50] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:24:50,532 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:50] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:24:50,659 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:50] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:24:56,590 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:56] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:24:56,904 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:56] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:24:56,942 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:56] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:24:57,313 - INFO - 127.0.0.1 - - [08/Jul/2025 08:24:57] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:04,687 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:04] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:25:04,689 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:04] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:04,992 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:04] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:25:05,098 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:05] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:15,375 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:15] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:25:15,377 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:15] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:15,666 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:15] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:25:15,789 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:15] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:30,902 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:30] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:25:30,904 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:30] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:31,181 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:31] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:25:31,334 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:31] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:44,118 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:44] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:25:44,121 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:44] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:44,404 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:44] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:25:44,525 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:44] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:45,971 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:45] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:25:46,280 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:46] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:46,304 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:46] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:25:46,687 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:46] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:53,160 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:53] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:25:53,164 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:53] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:25:53,444 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:53] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:25:53,566 - INFO - 127.0.0.1 - - [08/Jul/2025 08:25:53] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:26:13,493 - INFO - 127.0.0.1 - - [08/Jul/2025 08:26:13] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:26:13,495 - INFO - 127.0.0.1 - - [08/Jul/2025 08:26:13] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:26:13,791 - INFO - 127.0.0.1 - - [08/Jul/2025 08:26:13] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:26:13,903 - INFO - 127.0.0.1 - - [08/Jul/2025 08:26:13] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:26:29,688 - INFO - 127.0.0.1 - - [08/Jul/2025 08:26:29] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:26:29,690 - INFO - 127.0.0.1 - - [08/Jul/2025 08:26:29] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:26:29,963 - INFO - 127.0.0.1 - - [08/Jul/2025 08:26:29] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:26:30,096 - INFO - 127.0.0.1 - - [08/Jul/2025 08:26:30] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:27:45,537 - INFO - 127.0.0.1 - - [08/Jul/2025 08:27:45] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:27:45,540 - INFO - 127.0.0.1 - - [08/Jul/2025 08:27:45] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:27:45,802 - INFO - 127.0.0.1 - - [08/Jul/2025 08:27:45] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:27:45,983 - INFO - 127.0.0.1 - - [08/Jul/2025 08:27:45] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:28:02,434 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:02] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:28:02,436 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:02] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:28:02,725 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:02] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:28:02,851 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:02] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:28:07,497 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:07] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:28:07,500 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:07] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:28:07,792 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:07] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:28:07,915 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:07] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:28:25,429 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:25] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:28:25,431 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:25] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:28:25,718 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:25] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:28:25,845 - INFO - 127.0.0.1 - - [08/Jul/2025 08:28:25] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:29:11,431 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:11] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:29:11,434 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:11] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:29:11,439 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:11] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:29:11,443 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:11] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:29:11,715 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:11] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:29:11,766 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:11] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:29:11,840 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:11] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:29:11,874 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:11] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:29:16,610 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:16] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:29:16,921 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:16] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:29:16,924 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:16] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:29:16,929 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:16] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:29:16,964 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:16] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:29:17,255 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:17] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:29:17,307 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:17] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:29:17,339 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:17] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:29:31,614 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:31] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:29:31,616 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:31] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:29:31,902 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:31] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:29:32,031 - INFO - 127.0.0.1 - - [08/Jul/2025 08:29:32] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:31:25,772 - INFO - 127.0.0.1 - - [08/Jul/2025 08:31:25] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:31:25,774 - INFO - 127.0.0.1 - - [08/Jul/2025 08:31:25] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:31:26,062 - INFO - 127.0.0.1 - - [08/Jul/2025 08:31:26] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:31:26,182 - INFO - 127.0.0.1 - - [08/Jul/2025 08:31:26] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:32:12,092 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:12] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:32:12,094 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:12] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:32:12,462 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:12] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:32:12,523 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:12] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:32:14,370 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:14] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:32:14,685 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:14] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:32:14,687 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:14] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:32:14,692 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:14] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:32:14,723 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:14] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:32:15,044 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:15] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:32:15,112 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:15] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:32:15,134 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:15] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:32:45,080 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:45] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:32:45,083 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:45] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:32:45,359 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:45] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:32:45,517 - INFO - 127.0.0.1 - - [08/Jul/2025 08:32:45] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:33:24,290 - INFO - 127.0.0.1 - - [08/Jul/2025 08:33:24] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:33:24,293 - INFO - 127.0.0.1 - - [08/Jul/2025 08:33:24] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:33:24,296 - INFO - 127.0.0.1 - - [08/Jul/2025 08:33:24] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:33:24,299 - INFO - 127.0.0.1 - - [08/Jul/2025 08:33:24] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:33:24,584 - INFO - 127.0.0.1 - - [08/Jul/2025 08:33:24] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:33:24,639 - INFO - 127.0.0.1 - - [08/Jul/2025 08:33:24] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:33:24,713 - INFO - 127.0.0.1 - - [08/Jul/2025 08:33:24] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:33:24,721 - INFO - 127.0.0.1 - - [08/Jul/2025 08:33:24] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:19,084 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:19] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:34:19,087 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:19] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:19,090 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:19] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:34:19,093 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:19] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:19,357 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:19] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:34:19,425 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:19] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:34:19,489 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:19] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:19,515 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:19] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:19,531 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:19] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:19,814 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:19] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:19,884 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:19] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:20,199 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:20] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:23,005 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:34:23,008 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:23,015 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:34:23,024 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:23,280 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:34:23,331 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:23,341 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:34:23,426 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:23,436 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:23,627 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:23,681 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:23,707 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:23] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:31,823 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:31] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:34:32,126 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:32] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:32,128 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:32] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:34:32,131 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:32] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:32,174 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:32] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:34:32,177 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:32] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:34:32,180 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:32] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:32,502 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:32] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:34:32,528 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:32] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:34:32,598 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:32] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:32,636 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:32] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:33,058 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:33] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:34,269 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:34] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:34,272 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:34] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:34,788 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:34] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:34,845 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:34] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:36,283 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:36] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:34:36,595 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:36] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:36,598 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:36] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:34:36,602 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:36] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:36,633 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:36] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:34:36,934 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:36] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:34:37,011 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:37] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:37,023 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:37] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:37,992 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:37] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:37,996 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:37] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:38,373 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:38] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:38,404 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:38] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:52,065 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:52] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:52,411 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:52] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:59,476 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:59] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:34:59,479 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:59] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:59,482 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:59] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:34:59,485 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:59] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:59,759 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:59] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:34:59,813 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:59] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:34:59,882 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:59] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:34:59,900 - INFO - 127.0.0.1 - - [08/Jul/2025 08:34:59] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:34,334 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:34] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:34,337 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:34] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:34,681 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:34] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:34,743 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:34] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:40,074 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:40] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:40,490 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:40] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:41,921 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:41] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:42,333 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:42] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:52,872 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:52] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:53,238 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:53] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:55,565 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:55] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:55,983 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:55] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:58,547 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:58] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:35:58,959 - INFO - 127.0.0.1 - - [08/Jul/2025 08:35:58] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:02,560 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:02] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:02,964 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:02] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:07,077 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:07] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:07,493 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:07] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:13,556 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:13] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:13,920 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:13] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:19,845 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:19] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:20,252 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:20] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:21,853 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:21] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:22,311 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:22] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:27,833 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:27] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:28,183 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:28] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:29,435 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:29] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:36:29,849 - INFO - 127.0.0.1 - - [08/Jul/2025 08:36:29] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:03,519 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:03] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:03,825 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:03] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:03,924 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:03] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:04,193 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:04] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:12,923 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:12] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:13,291 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:13] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:18,458 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:18] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:18,868 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:18] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:24,358 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:24] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:37:24,681 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:24] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:24,685 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:24] "OPTIONS /categories HTTP/1.1" 200 -
+2025-07-08 08:37:24,688 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:24] "OPTIONS /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:24,716 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:24] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:37:25,017 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:25] "GET /categories HTTP/1.1" 200 -
+2025-07-08 08:37:25,026 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:25] "GET /prompts HTTP/1.1" 200 -
+2025-07-08 08:37:25,109 - INFO - 127.0.0.1 - - [08/Jul/2025 08:37:25] "GET /prompts HTTP/1.1" 200 -

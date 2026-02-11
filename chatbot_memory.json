@@ -1,0 +1,37 @@
+{
+  "user_name": null,
+  "search_history": [
+    {
+      "query": "no smoking ordinance",
+      "timestamp": "2025-07-08 07:14:51",
+      "results_count": 10
+    },
+    {
+      "query": "no smoking ordinance",
+      "timestamp": "2025-07-08 07:23:24",
+      "results_count": 10
+    },
+    {
+      "query": "covid ordinance",
+      "timestamp": "2025-07-08 07:37:37",
+      "results_count": 15
+    },
+    {
+      "query": "no smoking ordinance",
+      "timestamp": "2025-07-08 08:03:22",
+      "results_count": 10
+    },
+    {
+      "query": "covid-19 health protocols",
+      "timestamp": "2025-07-08 08:05:40",
+      "results_count": 10
+    }
+  ],
+  "interaction_count": 5,
+  "favorite_topics": {
+    "ordinance": 4,
+    "smoking": 3,
+    "covid": 2,
+    "health": 1
+  }
+}

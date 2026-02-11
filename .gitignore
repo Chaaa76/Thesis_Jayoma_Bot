@@ -1,0 +1,5 @@
+.env
+.idea/
+__pycache__/
+best_model/
+zephyr-7b-beta.Q5_K_M.gguf
