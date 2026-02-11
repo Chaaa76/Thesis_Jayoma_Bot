@@ -12,16 +12,17 @@ This repository contains the code and assets for *Jayoma Bot*, a Python-based or
 -  **Data-Driven** – Uses a CSV dataset (`ordinance_data.csv`) for searchable ordinance content.
 
 Thesis_Jayoma_Bot/
-├── app.py                      # Main chatbot application
-├── models.py                   # Legal-BERT model and retrieval logic
-├── ordinance_data.csv          # Ordinance dataset
-├── chatbot_memory.json         # Conversation memory storage
-├── ordinance_retrieval.log     # Retrieval logs
-├── requirements.txt            # Python dependencies
-├── vercel.json                 # Vercel deployment configuration
-├── .gitignore
-├── .gitattributes
-└── README.md
+- ├── app.py                      # Main chatbot application
+- ├── models.py                   # Legal-BERT model and retrieval logic
+- ├── ordinance_data.csv          # Ordinance dataset
+- ├── chatbot_memory.json         # Conversation memory storage
+- ├── ordinance_retrieval.log     # Retrieval logs
+- ├── requirements.txt            # Python dependencies
+- ├── vercel.json                 # Vercel deployment configuration
+- ├── .gitignore
+- ├── .gitattributes
+- └── README.md
+
 
 
 
